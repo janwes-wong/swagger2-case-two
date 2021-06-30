@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8855
+  address: 192.168.215.251
+spring:
+  application:
+    name: mall
+  profiles: dev
+---
+server:
+  port: 8856
+  address: 192.168.215.251
+spring:
+  application:
+    name: mall
+  profiles: test
+---
+server:
+  port: 8860
+  address: 192.168.215.251
+spring:
+  application:
+    name: mall
+  profiles: pro
